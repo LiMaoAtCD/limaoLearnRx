@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32CE651F33BC3D635B6E2059 /* Pods_limaoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9DFCF4B37B248E0AB8FE03 /* Pods_limaoUITests.framework */; };
+		60D2A7ED964329847C32BF91 /* Pods_limaoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8461974568253E7AA714D694 /* Pods_limaoTests.framework */; };
+		A50C3F9C94EAFDD5FCB6DEF3 /* Pods_limao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA5858D0DDCFE65E93AE661 /* Pods_limao.framework */; };
 		DAA8B5011D62A8FC0025994D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA8B5001D62A8FC0025994D /* AppDelegate.swift */; };
 		DAA8B5031D62A8FC0025994D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA8B5021D62A8FC0025994D /* ViewController.swift */; };
 		DAA8B5061D62A8FC0025994D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA8B5041D62A8FC0025994D /* Main.storyboard */; };
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A9DFCF4B37B248E0AB8FE03 /* Pods_limaoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_limaoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		247293DBC7259C0E2E34ED32 /* Pods-limaoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-limaoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-limaoTests/Pods-limaoTests.release.xcconfig"; sourceTree = "<group>"; };
+		3D43B13B655FF9715F081B64 /* Pods-limao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-limao.release.xcconfig"; path = "Pods/Target Support Files/Pods-limao/Pods-limao.release.xcconfig"; sourceTree = "<group>"; };
+		3E7E725D602A275550D7BFD1 /* Pods-limao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-limao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-limao/Pods-limao.debug.xcconfig"; sourceTree = "<group>"; };
+		75E5755A0EF191FC091721DA /* Pods-limaoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-limaoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-limaoUITests/Pods-limaoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8461974568253E7AA714D694 /* Pods_limaoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_limaoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF1E3698235D71841E67F93 /* Pods-limaoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-limaoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-limaoUITests/Pods-limaoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DAA8B4FD1D62A8FC0025994D /* limao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = limao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA8B5001D62A8FC0025994D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAA8B5021D62A8FC0025994D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,8 @@
 		DAA8B51C1D62A8FC0025994D /* limaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = limaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA8B5201D62A8FC0025994D /* limaoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = limaoUITests.swift; sourceTree = "<group>"; };
 		DAA8B5221D62A8FC0025994D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDA5858D0DDCFE65E93AE661 /* Pods_limao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_limao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F074F23453B06D5CDE1C915D /* Pods-limaoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-limaoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-limaoTests/Pods-limaoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A50C3F9C94EAFDD5FCB6DEF3 /* Pods_limao.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60D2A7ED964329847C32BF91 /* Pods_limaoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32CE651F33BC3D635B6E2059 /* Pods_limaoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		649248D47698680330353D20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E7E725D602A275550D7BFD1 /* Pods-limao.debug.xcconfig */,
+				3D43B13B655FF9715F081B64 /* Pods-limao.release.xcconfig */,
+				F074F23453B06D5CDE1C915D /* Pods-limaoTests.debug.xcconfig */,
+				247293DBC7259C0E2E34ED32 /* Pods-limaoTests.release.xcconfig */,
+				CDF1E3698235D71841E67F93 /* Pods-limaoUITests.debug.xcconfig */,
+				75E5755A0EF191FC091721DA /* Pods-limaoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DAA8B4F41D62A8FC0025994D = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				DAA8B5141D62A8FC0025994D /* limaoTests */,
 				DAA8B51F1D62A8FC0025994D /* limaoUITests */,
 				DAA8B4FE1D62A8FC0025994D /* Products */,
+				649248D47698680330353D20 /* Pods */,
+				DB30446E46B54E1E4A2F9011 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +155,16 @@
 			path = limaoUITests;
 			sourceTree = "<group>";
 		};
+		DB30446E46B54E1E4A2F9011 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDA5858D0DDCFE65E93AE661 /* Pods_limao.framework */,
+				8461974568253E7AA714D694 /* Pods_limaoTests.framework */,
+				0A9DFCF4B37B248E0AB8FE03 /* Pods_limaoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAA8B5251D62A8FC0025994D /* Build configuration list for PBXNativeTarget "limao" */;
 			buildPhases = (
+				D4CD446D16096FC89B92F468 /* [CP] Check Pods Manifest.lock */,
 				DAA8B4F91D62A8FC0025994D /* Sources */,
 				DAA8B4FA1D62A8FC0025994D /* Frameworks */,
 				DAA8B4FB1D62A8FC0025994D /* Resources */,
+				28F035C8EDFA2527FC685ADF /* [CP] Embed Pods Frameworks */,
+				1E5B4895C9F3AA56F5C3C7EC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAA8B5281D62A8FC0025994D /* Build configuration list for PBXNativeTarget "limaoTests" */;
 			buildPhases = (
+				4044B1DA073CFA851E56E90E /* [CP] Check Pods Manifest.lock */,
 				DAA8B50D1D62A8FC0025994D /* Sources */,
 				DAA8B50E1D62A8FC0025994D /* Frameworks */,
 				DAA8B50F1D62A8FC0025994D /* Resources */,
+				151990FE468AD0BA1F097A8A /* [CP] Embed Pods Frameworks */,
+				71AF09380FD169566727F966 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAA8B52B1D62A8FC0025994D /* Build configuration list for PBXNativeTarget "limaoUITests" */;
 			buildPhases = (
+				0C0586953DB99F81C70211C7 /* [CP] Check Pods Manifest.lock */,
 				DAA8B5181D62A8FC0025994D /* Sources */,
 				DAA8B5191D62A8FC0025994D /* Frameworks */,
 				DAA8B51A1D62A8FC0025994D /* Resources */,
+				60D420C9FD588E59CC202811 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +298,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C0586953DB99F81C70211C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		151990FE468AD0BA1F097A8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-limaoTests/Pods-limaoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E5B4895C9F3AA56F5C3C7EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-limao/Pods-limao-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28F035C8EDFA2527FC685ADF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-limao/Pods-limao-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4044B1DA073CFA851E56E90E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		60D420C9FD588E59CC202811 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-limaoUITests/Pods-limaoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71AF09380FD169566727F966 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-limaoTests/Pods-limaoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4CD446D16096FC89B92F468 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DAA8B4F91D62A8FC0025994D /* Sources */ = {
@@ -397,8 +568,10 @@
 		};
 		DAA8B5261D62A8FC0025994D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E7E725D602A275550D7BFD1 /* Pods-limao.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = limao/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.cover.limao;
@@ -408,8 +581,10 @@
 		};
 		DAA8B5271D62A8FC0025994D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D43B13B655FF9715F081B64 /* Pods-limao.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = limao/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.cover.limao;
@@ -419,6 +594,7 @@
 		};
 		DAA8B5291D62A8FC0025994D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F074F23453B06D5CDE1C915D /* Pods-limaoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = limaoTests/Info.plist;
@@ -431,6 +607,7 @@
 		};
 		DAA8B52A1D62A8FC0025994D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 247293DBC7259C0E2E34ED32 /* Pods-limaoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = limaoTests/Info.plist;
@@ -443,6 +620,7 @@
 		};
 		DAA8B52C1D62A8FC0025994D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDF1E3698235D71841E67F93 /* Pods-limaoUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = limaoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -454,6 +632,7 @@
 		};
 		DAA8B52D1D62A8FC0025994D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75E5755A0EF191FC091721DA /* Pods-limaoUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = limaoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -482,6 +661,7 @@
 				DAA8B5271D62A8FC0025994D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DAA8B5281D62A8FC0025994D /* Build configuration list for PBXNativeTarget "limaoTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +670,7 @@
 				DAA8B52A1D62A8FC0025994D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DAA8B52B1D62A8FC0025994D /* Build configuration list for PBXNativeTarget "limaoUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +679,7 @@
 				DAA8B52D1D62A8FC0025994D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
