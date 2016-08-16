@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAA8B5011D62A8FC0025994D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA8B5001D62A8FC0025994D /* AppDelegate.swift */; };
+		DAA8B5031D62A8FC0025994D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA8B5021D62A8FC0025994D /* ViewController.swift */; };
+		DAA8B5061D62A8FC0025994D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA8B5041D62A8FC0025994D /* Main.storyboard */; };
+		DAA8B5081D62A8FC0025994D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA8B5071D62A8FC0025994D /* Assets.xcassets */; };
+		DAA8B50B1D62A8FC0025994D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA8B5091D62A8FC0025994D /* LaunchScreen.storyboard */; };
+		DAA8B5161D62A8FC0025994D /* limaoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA8B5151D62A8FC0025994D /* limaoTests.swift */; };
+		DAA8B5211D62A8FC0025994D /* limaoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA8B5201D62A8FC0025994D /* limaoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAA8B5121D62A8FC0025994D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAA8B4F51D62A8FC0025994D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAA8B4FC1D62A8FC0025994D;
+			remoteInfo = limao;
+		};
+		DAA8B51D1D62A8FC0025994D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAA8B4F51D62A8FC0025994D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAA8B4FC1D62A8FC0025994D;
+			remoteInfo = limao;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAA8B4FD1D62A8FC0025994D /* limao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = limao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA8B5001D62A8FC0025994D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAA8B5021D62A8FC0025994D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAA8B5051D62A8FC0025994D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAA8B5071D62A8FC0025994D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAA8B50A1D62A8FC0025994D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAA8B50C1D62A8FC0025994D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAA8B5111D62A8FC0025994D /* limaoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = limaoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA8B5151D62A8FC0025994D /* limaoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = limaoTests.swift; sourceTree = "<group>"; };
+		DAA8B5171D62A8FC0025994D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAA8B51C1D62A8FC0025994D /* limaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = limaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA8B5201D62A8FC0025994D /* limaoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = limaoUITests.swift; sourceTree = "<group>"; };
+		DAA8B5221D62A8FC0025994D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAA8B4FA1D62A8FC0025994D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA8B50E1D62A8FC0025994D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA8B5191D62A8FC0025994D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAA8B4F41D62A8FC0025994D = {
+			isa = PBXGroup;
+			children = (
+				DAA8B4FF1D62A8FC0025994D /* limao */,
+				DAA8B5141D62A8FC0025994D /* limaoTests */,
+				DAA8B51F1D62A8FC0025994D /* limaoUITests */,
+				DAA8B4FE1D62A8FC0025994D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAA8B4FE1D62A8FC0025994D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAA8B4FD1D62A8FC0025994D /* limao.app */,
+				DAA8B5111D62A8FC0025994D /* limaoTests.xctest */,
+				DAA8B51C1D62A8FC0025994D /* limaoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAA8B4FF1D62A8FC0025994D /* limao */ = {
+			isa = PBXGroup;
+			children = (
+				DAA8B5001D62A8FC0025994D /* AppDelegate.swift */,
+				DAA8B5021D62A8FC0025994D /* ViewController.swift */,
+				DAA8B5041D62A8FC0025994D /* Main.storyboard */,
+				DAA8B5071D62A8FC0025994D /* Assets.xcassets */,
+				DAA8B5091D62A8FC0025994D /* LaunchScreen.storyboard */,
+				DAA8B50C1D62A8FC0025994D /* Info.plist */,
+			);
+			path = limao;
+			sourceTree = "<group>";
+		};
+		DAA8B5141D62A8FC0025994D /* limaoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAA8B5151D62A8FC0025994D /* limaoTests.swift */,
+				DAA8B5171D62A8FC0025994D /* Info.plist */,
+			);
+			path = limaoTests;
+			sourceTree = "<group>";
+		};
+		DAA8B51F1D62A8FC0025994D /* limaoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAA8B5201D62A8FC0025994D /* limaoUITests.swift */,
+				DAA8B5221D62A8FC0025994D /* Info.plist */,
+			);
+			path = limaoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAA8B4FC1D62A8FC0025994D /* limao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAA8B5251D62A8FC0025994D /* Build configuration list for PBXNativeTarget "limao" */;
+			buildPhases = (
+				DAA8B4F91D62A8FC0025994D /* Sources */,
+				DAA8B4FA1D62A8FC0025994D /* Frameworks */,
+				DAA8B4FB1D62A8FC0025994D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = limao;
+			productName = limao;
+			productReference = DAA8B4FD1D62A8FC0025994D /* limao.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAA8B5101D62A8FC0025994D /* limaoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAA8B5281D62A8FC0025994D /* Build configuration list for PBXNativeTarget "limaoTests" */;
+			buildPhases = (
+				DAA8B50D1D62A8FC0025994D /* Sources */,
+				DAA8B50E1D62A8FC0025994D /* Frameworks */,
+				DAA8B50F1D62A8FC0025994D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAA8B5131D62A8FC0025994D /* PBXTargetDependency */,
+			);
+			name = limaoTests;
+			productName = limaoTests;
+			productReference = DAA8B5111D62A8FC0025994D /* limaoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAA8B51B1D62A8FC0025994D /* limaoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAA8B52B1D62A8FC0025994D /* Build configuration list for PBXNativeTarget "limaoUITests" */;
+			buildPhases = (
+				DAA8B5181D62A8FC0025994D /* Sources */,
+				DAA8B5191D62A8FC0025994D /* Frameworks */,
+				DAA8B51A1D62A8FC0025994D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAA8B51E1D62A8FC0025994D /* PBXTargetDependency */,
+			);
+			name = limaoUITests;
+			productName = limaoUITests;
+			productReference = DAA8B51C1D62A8FC0025994D /* limaoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAA8B4F51D62A8FC0025994D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = limao;
+				TargetAttributes = {
+					DAA8B4FC1D62A8FC0025994D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					DAA8B5101D62A8FC0025994D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DAA8B4FC1D62A8FC0025994D;
+					};
+					DAA8B51B1D62A8FC0025994D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DAA8B4FC1D62A8FC0025994D;
+					};
+				};
+			};
+			buildConfigurationList = DAA8B4F81D62A8FC0025994D /* Build configuration list for PBXProject "limao" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAA8B4F41D62A8FC0025994D;
+			productRefGroup = DAA8B4FE1D62A8FC0025994D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAA8B4FC1D62A8FC0025994D /* limao */,
+				DAA8B5101D62A8FC0025994D /* limaoTests */,
+				DAA8B51B1D62A8FC0025994D /* limaoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAA8B4FB1D62A8FC0025994D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA8B50B1D62A8FC0025994D /* LaunchScreen.storyboard in Resources */,
+				DAA8B5081D62A8FC0025994D /* Assets.xcassets in Resources */,
+				DAA8B5061D62A8FC0025994D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA8B50F1D62A8FC0025994D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA8B51A1D62A8FC0025994D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAA8B4F91D62A8FC0025994D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA8B5031D62A8FC0025994D /* ViewController.swift in Sources */,
+				DAA8B5011D62A8FC0025994D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA8B50D1D62A8FC0025994D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA8B5161D62A8FC0025994D /* limaoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA8B5181D62A8FC0025994D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA8B5211D62A8FC0025994D /* limaoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAA8B5131D62A8FC0025994D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAA8B4FC1D62A8FC0025994D /* limao */;
+			targetProxy = DAA8B5121D62A8FC0025994D /* PBXContainerItemProxy */;
+		};
+		DAA8B51E1D62A8FC0025994D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAA8B4FC1D62A8FC0025994D /* limao */;
+			targetProxy = DAA8B51D1D62A8FC0025994D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAA8B5041D62A8FC0025994D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAA8B5051D62A8FC0025994D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAA8B5091D62A8FC0025994D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAA8B50A1D62A8FC0025994D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAA8B5231D62A8FC0025994D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAA8B5241D62A8FC0025994D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAA8B5261D62A8FC0025994D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = limao/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.cover.limao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAA8B5271D62A8FC0025994D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = limao/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.cover.limao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DAA8B5291D62A8FC0025994D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = limaoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.cover.limaoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/limao.app/limao";
+			};
+			name = Debug;
+		};
+		DAA8B52A1D62A8FC0025994D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = limaoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.cover.limaoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/limao.app/limao";
+			};
+			name = Release;
+		};
+		DAA8B52C1D62A8FC0025994D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = limaoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.cover.limaoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = limao;
+			};
+			name = Debug;
+		};
+		DAA8B52D1D62A8FC0025994D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = limaoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.cover.limaoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = limao;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAA8B4F81D62A8FC0025994D /* Build configuration list for PBXProject "limao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA8B5231D62A8FC0025994D /* Debug */,
+				DAA8B5241D62A8FC0025994D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAA8B5251D62A8FC0025994D /* Build configuration list for PBXNativeTarget "limao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA8B5261D62A8FC0025994D /* Debug */,
+				DAA8B5271D62A8FC0025994D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAA8B5281D62A8FC0025994D /* Build configuration list for PBXNativeTarget "limaoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA8B5291D62A8FC0025994D /* Debug */,
+				DAA8B52A1D62A8FC0025994D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAA8B52B1D62A8FC0025994D /* Build configuration list for PBXNativeTarget "limaoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA8B52C1D62A8FC0025994D /* Debug */,
+				DAA8B52D1D62A8FC0025994D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAA8B4F51D62A8FC0025994D /* Project object */;
+}
